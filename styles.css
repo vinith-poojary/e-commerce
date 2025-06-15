@@ -1,0 +1,33 @@
+body{
+    background-color: rgb(164, 123, 123);
+    text-align: center;
+    width: 20px;
+}
+
+h1{
+    color: blue;
+}
+
+#cart {
+    max-width: 300px;
+    margin: 20px auto;
+    padding: 20px;
+    
+    background: white;
+}
+
+.cart-item {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+#checkoutButton {
+    background-color: #007BFF;
+    color: white;
+    cursor: pointer;
+}
+
+#checkoutButton:hover {
+    background-color: #0056b3;
+}
