@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: snapcart
+    env: node
+    buildCommand: npm install
+    startCommand: node server.js
+    plan: free
+    branch: main
+    autoDeploy: true
