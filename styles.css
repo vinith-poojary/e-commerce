@@ -12,8 +12,7 @@ h1{
     max-width: 300px;
     margin: 20px auto;
     padding: 20px;
-    
-    background: white;
+
 }
 
 .cart-item {
@@ -24,7 +23,6 @@ h1{
 
 #checkoutButton {
     background-color: #007BFF;
-    color: white;
     cursor: pointer;
 }
 
